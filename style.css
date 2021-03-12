@@ -1,0 +1,293 @@
+@charset "UTF8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#FFFFFF;
+    z-index: 999;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.075) ;
+}
+
+/* Barra de navegação */
+
+nav{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #9FAE99;
+}
+
+/* Header */
+
+#paginainicial{
+    display: flex;
+    height: 93vh;
+    margin-top: 50px;
+}
+
+#fundoap img{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 720px;
+    margin-top: 200px;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #1B2338;
+    font-size: 60px;
+}
+
+#fotoperfil{
+    width: 40%;
+    display: flex;
+    position: relative;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+
+}
+
+#apresentacao{
+    width: 60%;
+    justify-content: right;
+    margin-top: 84px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+#apresentacao p{
+    margin-top: 60px;
+    margin-right: 400px;
+    font-size: 16px;
+    color: #666666;
+}
+
+/* redes sociais */
+
+#facebook img{
+    width: auto;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#github img{
+    width: auto;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 355px;
+}
+
+#instagram img{
+    width: auto;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 410px;
+}
+
+
+
+/* Curiosidades */
+
+#curiosidades{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 128vh;
+    background-image: url(imagens/bg.svg);
+    background-repeat: no-repeat;
+
+}
+
+
+#curiosidades main h1{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+#curiosidades main h1::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 55px;
+    top: -4px;
+    left: 730px;
+    background-color: #1B2338;
+
+
+}
+#caixa{
+    display: flex;
+    text-align: center;
+    color: #D9A491;
+    font-weight: 600;
+    height: 50vh;
+    margin-top: 50px;
+
+}
+
+
+#caixa p{
+    text-align: justify;
+    padding-top: 10px;
+    color: #666666;
+    font-weight: 600;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 65%;
+}
+
+
+#musica{
+    width: 35%;
+    margin: 0% 2% 0%;
+}
+
+#lecionar{
+    width: 35%;
+    
+    
+}
+
+
+#jogar{
+    width: 35%;
+    margin: 0% 2% 0%;
+}
+
+#soundcloud-foto{
+    display: flex;
+    height: 45vh;
+    
+}
+
+#soundcloud{
+    width: 125vh;
+    margin-left: 20px;
+}
+
+#foto{
+    width: 40%;
+    display: flex;
+    position: relative;
+    margin-left: 400px;
+}
+
+
+/* sobre */
+
+#sobre{
+    width: 100%;
+    display: flex;
+    height: 650px;
+    background-image: url(imagens/bgsobre.svg);
+    background-repeat: no-repeat;
+}
+
+#sobre main h1{
+    font-size: 42px;
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    margin-left: 750px;
+}
+
+#sobre main p{
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 28px;
+    display: flex;
+    padding-right: 300px;
+    margin-left: 750px;
+    margin-top: 30px;    
+}
+
+/* Hover */
+
+#hover01 img{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 62.5px 220px;
+}
+
+.overlay{
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    opacity: 0;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#hover01:hover .overlay {
+    opacity: 1;
+}
+
+
+/* footer */
+
+footer{
+    height: 40px;
+    background-color: #171717;
+    color: #666666;
+    font-size: 14px;
+}
+
+footer p{
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+}
