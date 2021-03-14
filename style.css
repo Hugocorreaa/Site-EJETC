@@ -58,8 +58,8 @@ nav a:hover{
     width: auto;
     height: auto;
     display: flex;
-    margin-left: 720px;
-    margin-top: 200px;
+    margin-left: 45%;
+    margin-top: 12.5%;
 }
 
 h1{
@@ -106,7 +106,7 @@ img{
     width: 50px;
     height: 50px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 7.1vh;
     margin-left: 300px;
 }
 
@@ -116,7 +116,7 @@ img{
     width: 50px;
     height: 50px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 7.1vh;
     margin-left: 355px;
 }
 
@@ -126,7 +126,7 @@ img{
     width: 50px;
     height: 50px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 7.1vh;
     margin-left: 410px;
 }
 
@@ -138,7 +138,7 @@ img{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 128vh;
+    height: 56.406%;
     background-image: url(imagens/bg.svg);
     background-repeat: no-repeat;
 
@@ -157,8 +157,8 @@ img{
     position: absolute;
     height: 3px;
     width: 55px;
-    top: -4px;
-    left: 730px;
+    top: -0.25%;
+    left: 48.5%;
     background-color: #1B2338;
 
 
@@ -244,10 +244,11 @@ img{
     font-size: 16px;
     text-align: justify;
     line-height: 28px;
+    width: 40%;
     display: flex;
-    padding-right: 300px;
+    margin-right: 15%;
     margin-left: 750px;
-    margin-top: 30px;    
+    margin-top: 30px;  
 }
 
 /* Hover */
@@ -290,4 +291,8 @@ footer p{
     margin-left: 60px;
     padding-top: 10px;
 }
+
+
+
 }
+
